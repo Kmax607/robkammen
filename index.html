@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
   <title>Dr. Robert H. Kammen, Psy.D.</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
 </head>
 <body>
 <!-- Navbar -->
@@ -21,17 +21,15 @@
       <li><a href="#location">Location</a></li>
       <li><a href="#contact">Contact Us</a></li>
     </ul>
-    <div class="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="primary-navigation">
+      <span></span><span></span><span></span>
+    </button>
   </nav>
 </header>
 
 <!-- Hero Section -->
 <section id="home" class="hero">
-  <div class="hero-content fade-in">
+  <div class="hero-content reveal">
     <h1>Welcome to the Practice of Dr. Robert H. Kammen, Psy.D.</h1>
     <p>Over 20 years helping individuals, couples, and families.</p>
     <a href="#about" class="btn">Learn More</a>
@@ -39,9 +37,9 @@
 </section>
 
 <!-- About Section -->
-<section id="about" class="about">
+<section id="about" class="about section">
   <div class="about-text slide-in-right">
-    <h2>About Dr. Kammen</h2>
+    <h2 class="section-title">About Dr. Kammen</h2>
     <p><strong>Introduction to Dr. Kammen</strong></p>
     <p>My practice centers around helping couples, families, and individuals. Often, the people that I see in my practice are reacting to life changes and stresses, including couple and family interactions and conflicts, life changes and transitions, relationship issues, health concerns, work stress, anxiety, and depression. I strongly believe that each person is trying to do their best to meet what are often complex and competing needs and expectations.</p>
     <p>I strive to fit my clinical skills and approaches to each individual, couple, and family. Our first few meetings focus on an evaluation of your needs, expectations, and comfort level. From the evaluation, we will jointly develop a psychotherapy treatment plan and work together to achieve the established goals. The treatment depends upon your active participation both in and out of our sessions.</p>
@@ -54,7 +52,7 @@
     <p>Upon completing my Master's Degree in 1982, I worked for three years providing outpatient psychotherapy to families, couples and individuals at Family Service Association of Atlantic County. While there, I had the privilege of receiving specialized training in Family and Marital Therapy from the renowned Philadelphia Child Guidance Center. This experience drew me to pursuing my Doctorate at Indiana University of Pennsylvania and I graduated with my Doctorate in Psychology in 1989 with further specialization in Family and Marital Therapy.</p>
     <p>I joined a group psychology practice in Binghamton, NY where the senior partner was an adjunct professor of Family and Systems Therapy in the Doctoral Psychology Program at the State University of New York at Binghamton. In addition to my clinical work, I participated in regular seminars developed for the members of the practice.</p>
     <p>I moved to the Wyoming Valley in 1991 to take a position as a member of the Geisinger Medical Group in the Behavioral Medicine Department. I provided outpatient therapy to individuals, couples, and families within a large medical practice site that is now appropriately named the Kistler Clinic. I also provided consultations to medical patients at the Geisinger Wyoming Valley Medical Center. I was a professional member of the Diabetes Treatment Team, and I also consulted regularly to the rehabilitation unit based at the GWV Medical Center. From 1998 to January of 2000, in addition to my clinical work, I served as the Director of the Behavioral Medicine Department serving Geisinger’s Northeastern Region. Upon leaving Geisinger, I entered into private practice in Kingston, PA.</p>
-    <a href="#services" class="btn">View Services</a>
+    <a href="#services" class="btn btn-outline">View Services</a>
   </div>
   <div class="about-image slide-in-left">
     <img src="office.jpg" alt="Office">
@@ -62,9 +60,9 @@
 </section>
 
 <!-- Services Section -->
-<section id="services" class="services">
+<section id="services" class="services section alt">
   <div class="services-text slide-in-left">
-    <h2>Services</h2>
+    <h2 class="section-title">Services</h2>
 
     <h3>Insurance Information</h3>
     <p>I am a preferred provider and I participate with a number of insurance companies. If you wish to use your insurance, it is important that you call the number on the back of your insurance card under Mental Health Care to find out if you need to be preauthorized in order to enter into treatment.</p>
@@ -80,37 +78,14 @@
     <h4>Some Reasons for Scheduling a Session</h4>
     <div class="services-list">
       <ul>
-        <li>Depression</li>
-        <li>Loss of Interest or Drive</li>
-        <li>Lack of Meaning/Purpose</li>
-        <li>Fears and Worries</li>
-        <li>Social Discomfort</li>
-        <li>Avoidance</li>
-        <li>Panic Symptoms</li>
-        <li>Obsessions and Compulsions</li>
-        <li>Guilt</li>
-        <li>Self-Blame</li>
-        <li>Self-Esteem Issues</li>
-        <li>Sleep Difficulties</li>
-        <li>Academic Issues</li>
-        <li>Difficulty Focusing</li>
-        <li>Assertiveness Challenges</li>
-        <li>Family Conflict</li>
-        <li>Parenting Issues</li>
-        <li>Pre-Marital Counseling</li>
-        <li>Relationship Problems</li>
-        <li>Jealousy and Trust Issues</li>
-        <li>Separation and Divorce</li>
-        <li>Communication Problems</li>
-        <li>Changes Associated with Aging</li>
-        <li>Chronic and Acute Health Issues</li>
-        <li>Anxiety</li>
-        <li>Grief and Loss</li>
-        <li>Isolation and Loneliness</li>
-        <li>Career Decisions and Retirement</li>
-        <li>Work Stress</li>
-        <li>Loss of Job</li>
-        <li>Life Transitions</li>
+        <li>Depression</li><li>Loss of Interest or Drive</li><li>Lack of Meaning/Purpose</li><li>Fears and Worries</li>
+        <li>Social Discomfort</li><li>Avoidance</li><li>Panic Symptoms</li><li>Obsessions and Compulsions</li>
+        <li>Guilt</li><li>Self-Blame</li><li>Self-Esteem Issues</li><li>Sleep Difficulties</li><li>Academic Issues</li>
+        <li>Difficulty Focusing</li><li>Assertiveness Challenges</li><li>Family Conflict</li><li>Parenting Issues</li>
+        <li>Pre-Marital Counseling</li><li>Relationship Problems</li><li>Jealousy and Trust Issues</li>
+        <li>Separation and Divorce</li><li>Communication Problems</li><li>Changes Associated with Aging</li>
+        <li>Chronic and Acute Health Issues</li><li>Anxiety</li><li>Grief and Loss</li><li>Isolation and Loneliness</li>
+        <li>Career Decisions and Retirement</li><li>Work Stress</li><li>Loss of Job</li><li>Life Transitions</li>
       </ul>
     </div>
   </div>
@@ -120,8 +95,8 @@
 </section>
 
 <!-- Resources Section -->
-<section id="resources" class="resources slide-in-right">
-  <h2>Resources</h2>
+<section id="resources" class="resources section">
+  <h2 class="section-title">Resources</h2>
   <div class="resource-grid">
     <a href="http://www.apahelpcenter.org/" target="_blank" class="resource-item hover-zoom">Help Center at American Psychological Association</a>
     <a href="http://www.APA.org" target="_blank" class="resource-item hover-zoom">American Psychological Association</a>
@@ -140,25 +115,41 @@
 </section>
 
 <!-- Location Section -->
-<section id="location" class="location fade-in">
-  <h2>Location</h2>
+<section id="location" class="location section alt">
+  <h2 class="section-title">Location</h2>
   <div class="location-container">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.753226311796!2d-75.894!3d41.261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDFsMjYnNDAuMCJOIDc1wrA1Myc0MC4wIlc!5e0!3m2!1sen!2sus!4v1234567890" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.753226311796!2d-75.894!3d41.261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDFsMjYnNDAuMCJOIDc1wrA1Myc0MC4wIlc!5e0!3m2!1sen!2sus!4v1234567890" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" title="Office location map"></iframe>
     <div class="address">
-      <p>250 Pierce St, Suite 214<br>Kingston, PA 18704</p>
-      <p>Phone: (570) 718-1760</p>
-      <p>Mon-Fri: 9am - 5pm</p>
+      <p><strong>Office</strong><br>250 Pierce St, Suite 214<br>Kingston, PA 18704</p>
+      <p><strong>Phone:</strong> <a href="tel:15707181760">570-718-1760</a></p>
+      <p><strong>Hours:</strong> Mon–Fri: 9am – 5pm</p>
     </div>
   </div>
 </section>
 
 <!-- Contact Section -->
-<section id="contact" class="contact slide-in-left">
-  <h2>Contact Us</h2>
-  <form>
-    <input type="text" placeholder="Your Name" required>
-    <input type="email" placeholder="Your Email" required>
-    <textarea placeholder="Your Message" required></textarea>
+<section id="contact" class="contact section">
+  <h2 class="section-title">Contact Us</h2>
+
+  <div class="contact-note">
+    <p><strong>Phone:</strong> <a href="tel:15707181760" class="contact-phone">570-718-1760</a></p>
+    <p>My office manager is available from 9AM–1PM Monday through Friday to answer your questions and to schedule your first appointment.</p>
+    <p>Out of respect for my patients, I usually do not answer the phone when I am meeting with someone. I will make every attempt to return phone calls within 24 hours with the exception of weekends and holidays.</p>
+  </div>
+
+  <form class="contact-form" autocomplete="on">
+    <label>
+      <span>Your Name</span>
+      <input type="text" name="name" placeholder="Your Name" required>
+    </label>
+    <label>
+      <span>Your Email</span>
+      <input type="email" name="email" placeholder="your@email.com" required>
+    </label>
+    <label>
+      <span>Your Message</span>
+      <textarea name="message" placeholder="How can I help?" required></textarea>
+    </label>
     <button type="submit" class="btn">Send Message</button>
   </form>
 </section>
