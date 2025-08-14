@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #ffffff;
+    background: #cbe1ee;
     padding: 1rem 2rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: sticky;
@@ -167,8 +167,8 @@ button {
 }
 
 .footer {
-    background: #222;
-    color: #ccc;
+    background: #cbe1ee;
+    color: #000000;
     text-align: center;
     padding: 1rem;
 }
@@ -310,7 +310,7 @@ button {
         transform: translateY(-3px);
         box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         background: #ffffff;
-        color: #005f73; /* example accent color */
+        color: #cbe1ee; /* example accent color */
     }
 
     .hover-zoom {
