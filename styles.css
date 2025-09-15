@@ -223,12 +223,12 @@ img {
 }
 
 .about2-text {
-    flex: 1 1 50%;
+    flex: 1 1 55%;
 }
 
 .office-img {
-    max-width: 50%;
-    width: 50%;
+    max-width: 55%;
+    width: 55%;
     display: block;
     border: 3px solid var(--yellow);
     border-radius: var(--radius);
